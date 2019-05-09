@@ -16,4 +16,4 @@ https://drive.google.com/file/d/1h3Mg-Z9jQp52Hmnio-zGk-23VHaB4N2w/view?usp=shari
 
 
 
-La procedure pour installer les différents module du projet se trouve dans le README.md de chaque projet.
+La procédure pour installer les différents modules du projet se trouve dans le README.md de chaque projet.
