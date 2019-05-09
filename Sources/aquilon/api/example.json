@@ -1,0 +1,99 @@
+// for /tours
+{
+    "tours" :
+    [
+        {
+            "id": 1,
+            "description": "Le premier parcours",
+            "auteur" : "Florian Mutin",
+            "name": "Visite de Blaise Pascal",
+            "nbSteps": 6,
+            "nbCompletedSteps": 4
+        },
+        {
+            "id": 2,
+            "description": "Le premier parcours",
+            "auteur" : "Florian Mutin",
+            "name": "Visite de Blaise Pascal",
+            "nbSteps": 6,
+            "nbCompletedSteps": 4
+        },
+        {
+            "id": 3,
+            "description": "Le premier parcours",
+            "auteur" : "Florian Mutin",
+            "name": "Visite de Blaise Pascal",
+            "nbSteps": 6,
+            "nbCompletedSteps": 4
+        },
+        {
+            "id": 4,
+            "description": "Le premier parcours",
+            "auteur" : "Florian Mutin",
+            "name": "Visite de Blaise Pascal",
+            "nbSteps": 6,
+            "nbCompletedSteps": 4
+        },
+        {
+            "id": 5,
+            "description": "Le premier parcours",
+            "auteur" : "Florian Mutin",
+            "name": "Visite de Blaise Pascal",
+            "nbSteps": 6,
+            "nbCompletedSteps": 4
+        }
+    ]
+}
+
+
+// for /tour/:id
+{
+    "id": "{{id}}",
+    "description" : "Le parcours lolilol",
+    "author": "Florian Mutin",
+    "name": "Visite de Blaise Pascal",
+    "nbSteps": 6,
+    "nbCompletedSteps": 4,
+    "steps": [
+        {
+            "id": 1,
+            "name": "Etape 1: le babyfoot",
+            "description": "Il faut faire passer Total sous le babyfoot",
+            "tags": "Yolo on gère pas les tags"
+        },
+
+        {
+            "id": 2,
+            "name": "Etape 2: le babyfoot",
+            "description": "Il faut faire passer Total sous le babyfoot",
+            "tags": "Yolo on gère pas les tags"
+        },
+
+        {
+            "id": 3,
+            "name": "Etape 3: le babyfoot",
+            "description": "Il faut faire passer Total sous le babyfoot",
+            "tags": "Yolo on gère pas les tags"
+        },
+
+        {
+            "id": 4,
+            "name": "Etape 4: le babyfoot",
+            "description": "Il faut faire passer Total sous le babyfoot",
+            "tags": "Yolo on gère pas les tags"
+        }
+
+    ]
+}
+
+// for /step/:id
+{
+    "id": 1,
+    "name": "Visite de Blaise Pascal",
+    "description": "Le premier parcours",
+    "position": {
+        "lat": 75,
+        "long": 37
+    },
+    "quizzes" : [8,6,9]
+}

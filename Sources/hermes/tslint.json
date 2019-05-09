@@ -1,0 +1,9 @@
+{
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {},
+    "rulesDirectory": [],
+    "indent": [true, "spaces", 2]
+}
